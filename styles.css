@@ -4,6 +4,7 @@ background: url(bg.png) no-repeat center center fixed;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+border:1px solid #d3d3d3;
 }
 
 .navbar {
