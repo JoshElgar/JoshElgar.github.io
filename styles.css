@@ -1,17 +1,33 @@
 body { 
-background: url(bg.png) no-repeat center center fixed; 
+    
+background: url(images/bg.png) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-}
-
-.navbar {
-	background-color: rgba(255, 255, 255, 0.7);
-	margin-bottom: 0px;
+    
 }
 
 .bordered {
-	border:0.5px solid #d3d3d3;
-	background-color: rgba(255, 255, 255, 0.7);
+    border:0.5px solid black;
+}
+
+.translucent {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#logo {
+    height: 20px;
+    display: inline-block;
+}
+
+.navbar-brand {
+    width: 200px;
+    font-size: 19px;
+}
+
+
+.dropdown-menu {
+    min-width: 320px;
+    padding: 10px 20px;
 }
