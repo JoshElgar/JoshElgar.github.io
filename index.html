@@ -9,6 +9,7 @@
     <link href="styles.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="jquery-2.2.3.min.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
 
     <title>Page</title>
@@ -87,7 +88,7 @@
                 <p>
                     Enter URL
                 </p>
-                <div class="input-group">
+                <div class="input-group input-group-botPadding">
                     <input type="text" class="form-control form-control-placeholder" placeholder="Example: http://www.google.com" />
                     <span class="input-group-btn">
                 <button onclick="changeShortenedLink()" class="btn btn-default" type="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
@@ -95,13 +96,13 @@
                 </div>
 
                 <p>
-                    Result
+                    Shortened link
                 </p>
 
                 <div class="input-group">
                     <input type="text" id="shortenedLink" class="form-control form-control-placeholder" placeholder="www.goo.gl" />
                     <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
+                <button onclick="navigateToLink()" class="btn btn-default" type="button"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
                     </span>
                 </div>
 
@@ -109,7 +110,17 @@
         </div>
     </div>
 
-
+    <div class='bottomBar'>
+        <div class="container-fluid">
+            <div class="col-lg-offset-5 col-lg-2 bottomBarTopPadding">
+                <div class='bottomBarLeft'>
+                    <a href="#">About</a>
+                </div>
+                <div class='bottomBarRight'>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+        </div>
     </div>
 
 
