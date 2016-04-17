@@ -44,9 +44,32 @@ background-size: cover;
     margin: 0px;
     background: url(images/overlay.jpg);
     height: 450px;
+    padding: 0px;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
 }
 
 .vertical-align {
     display: flex;
     align-items: center;
+}
+
+.container {
+    height: 100%;
+    text-align: center;  /* align the inline(-block) elements horizontally */
+    font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.container:before {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+#element {
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    font: 16px/1 Arial sans-serif;        /* <-- reset the font property */
+    width: 50%;
 }
