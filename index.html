@@ -9,7 +9,7 @@
     <link href="styles.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" src="scripts.js"></script>
 
     <title>Page</title>
 
@@ -85,14 +85,26 @@
         <div class="container">
             <div id="element">
                 <p>
-                    Enter URL to be shortened below:
+                    Enter URL
                 </p>
                 <div class="input-group">
                     <input type="text" class="form-control form-control-placeholder" placeholder="Example: http://www.google.com" />
                     <span class="input-group-btn">
+                <button onclick="changeShortenedLink()" class="btn btn-default" type="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
+                    </span>
+                </div>
+
+                <p>
+                    Result
+                </p>
+
+                <div class="input-group">
+                    <input type="text" id="shortenedLink" class="form-control form-control-placeholder" placeholder="www.goo.gl" />
+                    <span class="input-group-btn">
                 <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
                     </span>
                 </div>
+
             </div>
         </div>
     </div>
