@@ -42,6 +42,7 @@ p {
     margin: 0px;
     margin-bottom: 30px;
     text-align: center;
+    height: auto;
     background-color: #343C3B;
     padding: 0px;
     border-bottom: 1px solid gray;
