@@ -40,7 +40,8 @@ p {
 }
 .page-header {
     margin: 0px;
-    background-color: #82a43a;
+    margin-bottom: 30px;
+    background-color: #343C3B;
     height: 450px;
     padding: 0px;
     border-bottom: 1px solid gray;
@@ -76,17 +77,11 @@ p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white;
 }
-.input-group {
-    padding-bottom: 15px;
-}
-.input-group-footerPadding {
-    padding-bottom: 55px;
-}
 .footer {
     position:absolute;
     bottom:0;
-    background: linear-gradient(90deg, #343C3B, #3E5653);
-    height: 60px;
+    background-color: #3E5653;
+    height: 30px;
     font-size: 14px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: underline;
@@ -105,9 +100,6 @@ p {
     width: 30%;
     float: right;
     font: inherit;
-}
-.footerTopPadding {
-    padding-top: 15px;
 }
 a:link {
     color: white;
