@@ -1,3 +1,2 @@
 # JoshElgar.github.io
-Website
-basic personal website, will be updated in the future
+Basic personal website, will be updated in future.
