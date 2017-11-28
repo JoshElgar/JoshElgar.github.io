@@ -92,6 +92,7 @@ urlshortener.html
 .urlsection {
     padding: 20px;
 }
+/*
 a:link {
     color: white;
 }
@@ -104,3 +105,4 @@ a:hover {
 a:active {
     color: white;
 }
+*/
