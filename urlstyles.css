@@ -1,0 +1,108 @@
+/*
+index.html
+*/
+html, body {
+    height: 100%;
+    overflow: auto;
+}
+.full-height {
+    height:100%;
+}
+.centre {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+}
+.row {
+    height: 100%;
+}
+
+
+/*
+urlshortener.html
+*/
+#logo {
+    height: 20px;
+    display: inline-block;
+}
+.navbar-brand {
+    width: 200px;
+    font-size: 19px;
+}
+.navbar-collapse {
+    padding-right: 0px;
+}
+.navbar-default {
+    margin: 0px;
+}
+.dropdown-menu {
+    min-width: 320px;
+    padding: 10px 20px;
+}
+.page-header {
+    display: inline-block;
+    position: absolute;
+    margin-bottom: 30px;
+    height: 100%;
+    text-align: center;
+    background-color: #343C3B;
+    border-bottom: 1px solid gray;
+}
+.form-control-placeholder {
+    font-style: italic;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.content {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px;
+    width: 35%;
+    min-height:100%;
+    font-size: 20px;
+    font-family: "Open Sans",Arial,sans-serif;
+    color: white;
+}
+.page-footer {
+    position: absolute;
+    bottom:0;
+    background-color: #3E5653;
+    height: 30px;
+    font-size: 14px;
+    font-family: "Open Sans",Arial,sans-serif;
+    text-decoration: underline;
+    color: white;
+    border-top: 1px solid gray;
+}
+.footerLeft {
+    text-align: left;
+    width: 30%;
+    float: left;
+    font: inherit;
+}
+.footerRight {
+    text-align: right;
+    width: 30%;
+    float: right;
+    font: inherit;
+}
+.urlsection {
+    padding: 20px;
+}
+/*
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+*/

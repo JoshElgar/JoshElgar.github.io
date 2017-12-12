@@ -1,108 +1,49 @@
-/*
-index.html
-*/
+html {
+    font-size: 20px;
+}
 html, body {
     height: 100%;
-    overflow: auto;
-}
-.full-height {
-    height:100%;
-}
-.centre {
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 20%;
-}
-.row {
-    height: 100%;
+    min-height: 100%;
 }
 
-
-/*
-urlshortener.html
-*/
-#logo {
-    height: 20px;
-    display: inline-block;
-}
-.navbar-brand {
-    width: 200px;
-    font-size: 19px;
-}
-.navbar-collapse {
-    padding-right: 0px;
-}
-.navbar-default {
-    margin: 0px;
-}
-.dropdown-menu {
-    min-width: 320px;
-    padding: 10px 20px;
-}
-.page-header {
-    display: inline-block;
-    position: absolute;
-    margin-bottom: 30px;
-    height: 100%;
-    text-align: center;
-    background-color: #343C3B;
-    border-bottom: 1px solid gray;
-}
-.form-control-placeholder {
-    font-style: italic;
-}
 .container-fluid {
-    padding: 0;
-    margin: 0;
-    width: 100%;
+    min-height: 100%;
+    background-color:black;
+    padding-top: 5rem;
 }
-.content {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 30px;
-    width: 35%;
-    min-height:100%;
-    font-size: 20px;
-    font-family: "Open Sans",Arial,sans-serif;
-    color: white;
+.mainContainer {
+    min-height: 100%;
+    padding-bottom: 5rem;
+    padding-top: 2.5rem;
+    background-color: #a9bbca;
 }
-.page-footer {
-    position: absolute;
-    bottom:0;
-    background-color: #3E5653;
-    height: 30px;
-    font-size: 14px;
-    font-family: "Open Sans",Arial,sans-serif;
-    text-decoration: underline;
-    color: white;
-    border-top: 1px solid gray;
+.headerRow {
+    
+    
 }
-.footerLeft {
-    text-align: left;
-    width: 30%;
-    float: left;
-    font: inherit;
+.headerSection {
+    text-align: center;
+    font-size: 2rem;
 }
-.footerRight {
-    text-align: right;
-    width: 30%;
-    float: right;
-    font: inherit;
+
+.bodySection {
+    text-align: center;
+    padding-top: 1rem;
 }
-.urlsection {
-    padding: 20px;
+
+.collapseBtns{
+    min-width: 8rem;
+    opacity: 20%;
+} 
+
+.sexy_line { 
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#a9bbca), to(#a9bbca), color-stop(50%, black));
 }
-/*
-a:link {
-    color: white;
+
+.mainTabs{
+    border-bottom: 1px solid #ddd;
+    
 }
-a:visited {
-    color: white;
-}
-a:hover {
-    color: white;
-}
-a:active {
-    color: white;
-}
-*/
